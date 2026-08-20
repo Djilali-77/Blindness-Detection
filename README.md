@@ -1,3 +1,28 @@
-# Retina AI Diagnostic System
+# 👁️ Retina AI Diagnostic System
 
-Retina AI Diagnostic System is an advanced, full-stack AI application designed to detect Diabetic Retinopathy from retinal scans by predicting the severity of the disease and providing visual explainability through Grad-CAM heatmaps. Powered by a custom-trained PyTorch ResNet18 model and integrated with Weights & Biases for MLOps, the backend is built efficiently using FastAPI and OpenCV, while the responsive drag-and-drop frontend runs on modern React and Vite. The entire project is fully containerized for production using Docker and orchestrated with Docker Compose. To run the application locally, simply clone the repository, navigate to the project directory, and execute the command `docker-compose up --build` in your terminal, which will automatically spin up the environment so you can test the AI directly at http://localhost in your web browser.
+An advanced AI application that detects Diabetic Retinopathy from retinal scans. It predicts the severity of the disease and provides visual explainability using **Grad-CAM** heatmaps.
+
+## ✨ Features
+* **Deep Learning:** Custom-trained ResNet18 model using PyTorch.
+* **Explainable AI (XAI):** Grad-CAM heatmaps to explain AI decisions.
+* **Modern UI:** Drag & Drop interface with React and TailwindCSS.
+* **Production-Ready:** Fully containerized with Docker & Docker Compose.
+
+## 🛠️ Tech Stack
+* **Backend:** FastAPI, Python, OpenCV
+* **Frontend:** React (Vite), Nginx
+* **MLOps:** Weights & Biases (W&B)
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+`git clone https://github.com/YOUR_USERNAME/retina-ai-diagnosis.git`
+
+2. Run with Docker:
+`docker-compose up --build`
+
+3. Open your browser and test the AI:
+`http://localhost`
+
+## 📸 Demo
+*(Add a screenshot of your web interface here)*
