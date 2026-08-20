@@ -25,4 +25,5 @@ An advanced AI application that detects Diabetic Retinopathy from retinal scans.
 `http://localhost`
 
 ## 📸 Demo
-*(Add a screenshot of your web interface here)*
+<img width="730" height="520" alt="image" src="https://github.com/user-attachments/assets/0ab5c407-b4be-4575-8440-c7e5bed8e3c5" />
+
