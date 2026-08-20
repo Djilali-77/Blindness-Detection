@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./ai-vision-backend
+    container_name: retina_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/uploaded_images:/app/uploaded_images
+
+  frontend:
+    build: ./ai-vision-frontend
+    container_name: retina_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend

@@ -1,0 +1,31 @@
+# ===============
+# Secrets
+# ===============
+.env
+
+# ===============
+# Python & Backend
+# ===============
+__pycache__/
+venv/
+*.pth
+*.pt
+
+# ===============
+# Node & Frontend
+# ===============
+node_modules/
+dist/
+npm-debug.log
+
+# ===============
+# Uploads (على حساب التصويرة تاعك)
+# ===============
+ai-vision-backend/uploaded_images/
+backend/uploaded_images/
+
+# ===============
+# OS generated files
+# ===============
+.DS_Store
+Thumbs.db
